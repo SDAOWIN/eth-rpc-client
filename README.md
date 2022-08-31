@@ -6,7 +6,7 @@ Ethereum JSON RPC backed client ( provider + blockTracker ).
 
 ```js
 const createEthRpcClient = require('eth-rpc-client')
-
+ 
 // client provider and blockTracker from options
 const { provider, blockTracker } = createEthRpcClient(opts)
 
